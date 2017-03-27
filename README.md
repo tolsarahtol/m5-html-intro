@@ -1,27 +1,10 @@
-# Module 5: Introduction to HTML
+# Introduction to HTML
 
-## Overview
 **HyperText Markup Language** is a programming language for describing how to display web documents. It uses `<tags>` to **mark up** plain text, and provide rendering instructions to a web-browser or other interpreter such as a screenreader. Even the most beautiful websites and complex data visualizations on the web are simply HTML elements arranged into what people perceive as intriguing sites or innovative charts.
 
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
 
-- [Resources](#resources)
-- [Basic Syntax](#basic-syntax)
-  - [Self-Closing Tags](#self-closing-tags)
-- [Document Structure](#document-structure)
-  - [Head section](#head-section)
-  - [Body Section](#body-section)
-- [Attributes](#attributes)
-  - [Identifying Attributes](#identifying-attributes)
-  - [Links](#links)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
-There are limitless resources on the web regarding web-programming (shocking), but here are a few to get you started:
+Helpful links:
 
 - [HTML5 General Reference](http://www.w3schools.com/tags/ref_byfunc.asp)
 - [HTML Attribute Reference](http://www.w3schools.com/tags/ref_standardattributes.asp)
@@ -67,7 +50,7 @@ That tells any program that reads this file to interpret the contents as HTML ve
 
 Once you've declared the type of document that you are using, the rest of your content is arranged into a **tree structure**. If you're unfamiliar with a general tree pattern, it takes the following form:
 
-![screenshot of nested tree structure](imgs/tree-structure.png)
+![screenshot of nested tree structure](m5-imgs/tree-structure.png)
 
 Each of those blue rectangles is known as a **node**. Each node has a **parent node**, except for the one at the top of the tree, which is known as the **root node**. Each node may have one or more **child nodes**, and those children can have children of their own (and so on, and so on). A node with no children is known as a **leaf node**.
 
@@ -85,7 +68,7 @@ All visual element that you want to render fall in the `<body>` section of your 
 
 The following image from w3schools shows how the `<head>` and `<body>` sections both fall within the same tree structure of your DOM:
 
-![DOM tree structure](imgs/w3_htmltree.gif)
+![DOM tree structure](m5-imgs/w3_htmltree.gif)
 
 ### Head section
 The `<head>` section of your page allows you to specify some important information about the page which _will not_ be rendered by your web-browser. This will allow you to load additional files into your webpage, and describe properties of the page such as it's `<title>` (which controls how the browser tab is labeled). The `<meta>` tag specifies crucial information about your website, including:
@@ -207,4 +190,4 @@ You can use specific tags to _**hyperlink**_ to other pages, or other sections o
 </section>
 ```
 
-Note, in the section above, the anchor tag uses the id `about` with a hash symbol (`#`) in front of it to indicate that it was using the section's `id` to specify the link location. For practice experimenting was basic HTML elements, see [exercise-1](exercise-1).
+Note, in the section above, the anchor tag uses the id `about` with a hash symbol (`#`) in front of it to indicate that it was using the section's `id` to specify the link location. For practice experimenting was basic HTML elements, see [exercise-1](http://github.com/info474-s17/tree/master/m5-html-intro/exercise-1).
