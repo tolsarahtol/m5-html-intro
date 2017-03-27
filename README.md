@@ -190,4 +190,4 @@ You can use specific tags to _**hyperlink**_ to other pages, or other sections o
 </section>
 ```
 
-Note, in the section above, the anchor tag uses the id `about` with a hash symbol (`#`) in front of it to indicate that it was using the section's `id` to specify the link location. For practice experimenting was basic HTML elements, see [exercise-1](exercise-1).
+Note, in the section above, the anchor tag uses the id `about` with a hash symbol (`#`) in front of it to indicate that it was using the section's `id` to specify the link location. For practice experimenting was basic HTML elements, see [exercise-1](http://github.com/info474-s17/tree/master/m5-html-intro/exercise-1).
